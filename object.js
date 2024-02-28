@@ -1,3 +1,4 @@
+"use strict"
 // creating of objects
 
 const person={
