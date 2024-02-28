@@ -1,4 +1,4 @@
-
+"use strict"
 let fruits=["apple","mango","grapes"];
 console.log(fruits);
 
@@ -55,3 +55,16 @@ console.log(arr);
 const fr=["banana"];
 fr.push("apple");
 console.log(fr); 
+
+
+//for of loop
+
+for(let fruit of fruits){
+    console.log(fruit);
+}
+
+
+//for in loop -> this loop gives index 
+for(let fruit in fruits){
+    console.log(fruits[fruit]);
+}
