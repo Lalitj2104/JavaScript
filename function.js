@@ -68,3 +68,27 @@ happy();
 //easy way to do 
 const seven = x =>x%2===0;
 console.log(seven(10));
+
+//callback funtion
+//these both  two are called higher order function
+function myfunc2(){
+    console.log("myfunc2");
+}
+function myfunc(callback){
+    callback();
+}
+
+myfunc(myfunc2);
+
+
+//function returning functions
+
+function func(){
+    function hello(){
+        return("hello world");
+    }
+    return hello;
+}
+
+const ans=func();
+console.log(ans())
