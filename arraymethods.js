@@ -103,3 +103,36 @@ const ans=myArray.find((string)=>{
     return string.length ===3;
 })
 console.log(ans);
+
+
+
+//every method
+// const nums=[2,4,6,8,10];
+
+// const x=nums.every((number)=>number%2==0);
+//  console.log(x)
+
+
+const q=userCart.every((num)=>num.price<30000)
+console.log(q);
+
+//some method
+const nums=[2,4,5,8,10];
+
+const x=nums.some((number)=>number%2==0);
+ console.log(x)
+
+//fill method
+
+const newarr= new Array(10).fill(1);
+newarr.fill(4,0,5
+    )
+console.log(newarr)
+
+
+//splice method
+const wearr=["item1","item2","item3"]
+wearr.splice(1,1) //for delete
+console.log(wearr)
+wearr.splice(1,0,"inserted")//for insert
+console.log(wearr)
