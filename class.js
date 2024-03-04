@@ -20,18 +20,18 @@
 // const user1= new CreateUser('lalit', 'jindal', `lalit@gmail.com`, 19, "house no  street city")
 // console.log(Object.getPrototypeOf(user1))
 
-class animal{
-    constructor(name,age){
-        this.name=name;
-        this.age=age;
+class animal {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
     }
-    eat=()=>`${this.logname} is eating`
-    isSuprcute(){
-        if(this.age<=1){
+    eat = () => `${this.logname} is eating`
+    isSuprcute() {
+        if (this.age <= 1) {
             return true;
         }
     }
-    iscute=()=>true;
+    iscute = () => true;
 }
 
 // const ani=new animal('tommy',1);
@@ -40,6 +40,16 @@ class animal{
 // console.log(ani.iscute())
 
 
-class dog extends animal{
-    
+class dog extends animal {
+    constructor(name, age, speed) {
+        super(name, age);
+        this.speed = speed;
+    }
+    run(){
+        return `${this.speed} kmph is running speed of ${this.name}`
+    }
+
 }
+
+const doggy=new dog('tom',1,30);
+console.log(doggy.run())
