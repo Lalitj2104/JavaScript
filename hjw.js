@@ -20,6 +20,7 @@
 
 let foo="foo";
 console.log(foo);
+
 function getFullName(first,last){
     console.log(arguments);
     let myvar="var inside function";
@@ -28,5 +29,6 @@ function getFullName(first,last){
     console.log(fullname);
     return fullname;
 }
+
 const personName=getFullName("harsh","Jain");
 console.log(personName);
