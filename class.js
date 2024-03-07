@@ -20,6 +20,8 @@
 // const user1= new CreateUser('lalit', 'jindal', `lalit@gmail.com`, 19, "house no  street city")
 // console.log(Object.getPrototypeOf(user1))
 
+
+
 class animal {
     constructor(name, age) {
         this.name = name;
@@ -34,10 +36,14 @@ class animal {
     iscute = () => true;
 }
 
+
+
 // const ani=new animal('tommy',1);
 // console.log(ani.eat())
 // console.log(ani.isSuprcute())
 // console.log(ani.iscute())
+
+
 
 
 class dog extends animal {
