@@ -48,3 +48,10 @@ const inhtml=document.querySelector(".headline");
 inhtml.innerHTML="<h2>heloo this done using js</h2>"
 inhtml.innerHTML+="<button class=\"btn\">learn more</button>"
 console.log(inhtml.innerHTML)
+
+
+
+//selection of all classes in a div
+ const todo=document.querySelector(".section-todo");
+ console.log(todo.classList)
+ todo.classList.add("bg-dark") 
