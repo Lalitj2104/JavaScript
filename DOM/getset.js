@@ -54,4 +54,4 @@ console.log(inhtml.innerHTML)
 //selection of all classes in a div
  const todo=document.querySelector(".section-todo");
  console.log(todo.classList)
- todo.classList.add("bg-dark") 
+ todo.classList.add("bg-dark")  
