@@ -8,8 +8,8 @@ const btn = document.querySelector(".btn-headline");
 
 
 function clickme() { console.log('You clicked me') }
-btn.addEventListener("click",clickme);
+btn.addEventListener("click", clickme);
 
- 
 
-//event object
+
+//event object 
