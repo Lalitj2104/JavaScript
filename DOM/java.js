@@ -22,6 +22,6 @@ todolist.addEventListener("click",(e)=>{
   }
   if(e.target.classList.contains("remove")){
     const targatedli=e.target.parentNode.parentNode;
-    todolist.remove(targatedli);
+    targatedli.remove();
   }
 })
